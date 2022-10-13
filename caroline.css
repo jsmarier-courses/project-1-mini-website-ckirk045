@@ -1,8 +1,9 @@
 html, body {
+    font-size: 16px;
     margin: 0;
     padding: 0px 0px 0px 0px;
-    font-family: 'Roboto', sans-serif;
-    color: #666666;
+    font-family: 'Rooney', sans-serif;
+    color: #000000;
 }
 
 body {
@@ -17,18 +18,19 @@ body {
 }
 
 .logo {
-   font-size: 30px;
+    font-family: 'American Typewriter', serif;  
+   font-size: 40px;
    position: absolute;
    padding: 0px 0px 0px 20px;
    z-index: 3;
-   color: #131359;
+   color: #1b070a;
    font-weight: bold;
 }
 
 .top-menu {
-   background-color: #131359;
+   background-color: #d30000;
    position: absolute;
-   top: 85px;
+   top: 90px;
    z-index: 2;
    width: 100%;
 }
@@ -45,17 +47,20 @@ body {
 }
 
 .top-menu li a:link, .top-menu li a:visited {
-    color: white;
-    text-decoration: none;
+    font-size: 20px;
+    font-family:'Arial', sans-serif;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
     padding: 20px 20px 20.5px 20px;
 }
 
 .top-menu li a:hover {
-    background-color: red;
+    background-color: rgba(255, 33, 33, 0.762);
 }
 
 .current-page-link {
-    background-color: #db0e0e;
+    background-color: #690000;
 }
 
 .page-content {
@@ -64,7 +69,7 @@ body {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     z-index: 1;
 }
 
@@ -73,7 +78,7 @@ body {
 }
 
 .main-section h1, .main-section h2 {
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .main-section figure, .main-section img {
@@ -89,7 +94,7 @@ body {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    background-color:#3f3c3c;
+    background-color:#262525;
 }
 
 .footer-content {
