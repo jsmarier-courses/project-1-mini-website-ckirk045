@@ -9,7 +9,18 @@ html, body {
 body {
     background-color: rgb(255, 255, 255);
 }
-
+img.medium {
+max-width: 65%;
+height: auto;
+}
+img.large{
+    max-width: 50%;
+    height:auto;
+}
+img.small{
+    max-width: 45%;
+    height:auto;
+}
 .top-bar {
     max-width: 1000px;
     position: relative;
